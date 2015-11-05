@@ -1,0 +1,20 @@
+# top level stuff you probably don't need to touch
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: pretty
+port: 3000
+safe: true
+destination: E:\Programming\Github\seansackowitz.github.io\
+
+
+# edit here to achieve your personal greatness
+url: http://seansackowitz.me/
+baseurl: /
+title: Sean Sackowitz
+author: Sean Sackowitz
+description: Personal blog and resume
+avatar: profile.png
+email: sean.sackowitz@gmail.com
+github: seansackowitz

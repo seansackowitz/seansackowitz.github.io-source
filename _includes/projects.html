@@ -1,0 +1,20 @@
+<section id="projects">
+	<div class="container">
+		<h3>Projects</h3>
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<h4>
+					<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="#Code-Snapshot">Code-Snapshot</a></strong>
+					Allows you to take snapshots of files to test new code and easily roll back changes to previous snapshots.
+				</h4>
+				<section id="Code-Snapshot">
+					<hr/>
+					<h3 style="text-align:left;float:left;margin-right:20px;"><strong>Code-Snapshot</strong></h3>
+					<h6 style="padding-top:28px;"><a href="https://github.com/seansackowitz/Code-Snapshot">View on Github&nbsp;&nbsp;<i class="fa fa-github"></i></a></h6>
+					{% capture myinclude %}{% include CodeSnapshot.md %}{% endcapture %}
+					{{ myinclude | markdownify }}
+				</section>
+			</div>
+		</div>
+	</div>
+</section>
