@@ -128,9 +128,10 @@ body {
 }
 .panel-default table td{
   vertical-align: top;
-  padding-bottom: 20px;
+  padding-bottom: 26px;
 }
 .tableColumn{
+  padding-right: 15px;
   color: #27A822;
   font-size: 18px;
   font-weight: bold;
