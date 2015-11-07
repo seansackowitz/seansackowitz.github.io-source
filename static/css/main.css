@@ -131,6 +131,7 @@ body {
   padding-bottom: 26px;
 }
 .tableColumn{
+  max-width: 200px;
   padding-right: 15px;
   color: #27A822;
   font-size: 18px;

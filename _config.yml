@@ -6,7 +6,7 @@ rdiscount:
 permalink: pretty
 port: 3000
 safe: true
-destination: E:\Programming\Github\seansackowitz.github.io\
+destination: D:\Programming\Github\seansackowitz.github.io\
 
 
 # edit here to achieve your personal greatness
