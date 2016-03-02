@@ -1,12 +1,11 @@
 # top level stuff you probably don't need to touch
-highlighter: pygments
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
 permalink: pretty
 port: 3000
 safe: true
-destination: D:\Programming\Github\seansackowitz.github.io\
+destination: F:\Programming\Git\seansackowitz.github.io\
 
 
 # edit here to achieve your personal greatness

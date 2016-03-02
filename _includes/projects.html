@@ -7,12 +7,26 @@
 					<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="#Code-Snapshot">Code-Snapshot</a></strong>
 					Allows you to take snapshots of files to test new code and easily roll back changes to previous snapshots.
 				</h4>
+				<h4>
+					<i class="fa fa-github"></i>&nbsp;&nbsp;<strong><a href="#UGitUI">UGitUI</a></strong>
+					An alternative user interface for managing your git repositories.
+				</h4>
 				<section id="Code-Snapshot">
 					<hr/>
 					<h1 style="text-align:left;float:left;margin-right:20px;"><strong>Code-Snapshot</strong></h1>
 					<h6 style="padding-top:28px;"><a href="https://github.com/seansackowitz/Code-Snapshot"><i class="fa fa-github">&nbsp;&nbsp;</i>View on Github</a></h6>
 					<p style="clear:both;">
 					{% capture myinclude %}{% include CodeSnapshot.md %}{% endcapture %}
+					{{ myinclude | markdownify }}
+				</section>
+				<div style="margin-top: 10em;">
+				</div>
+				<section id="UGitUI">
+					<hr/>
+					<h1 style="text-align:left;float:left;margin-right:20px;"><strong>UGitUI</strong></h1>
+					<h6 style="padding-top:28px;"><a href="https://github.com/seansackowitz/UGitUI"><i class="fa fa-github">&nbsp;&nbsp;</i>View on Github</a></h6>
+					<p style="clear:both;">
+					{% capture myinclude %}{% include UGitUI.md %}{% endcapture %}
 					{{ myinclude | markdownify }}
 				</section>
 			</div>
